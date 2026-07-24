@@ -1,0 +1,28 @@
+{
+  "name": "bg-remover",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Eliminador de fondo de imágenes 100% local (privacidad total, alta calidad).",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --port 3000",
+    "start": "vite --host --port 3000",
+    "build": "vite build",
+    "preview": "vite preview --host --port 3000"
+  },
+  "keywords": ["background-removal", "image-editor", "local", "privacy"],
+  "license": "MIT",
+  "dependencies": {
+    "@imgly/background-removal": "1.6.0",
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "4.3.4",
+    "autoprefixer": "10.4.20",
+    "onnxruntime-web": "1.21.0-dev.20250206-d981b153d3",
+    "postcss": "8.4.49",
+    "tailwindcss": "3.4.17",
+    "vite": "5.4.11"
+  }
+}
