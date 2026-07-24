@@ -15,6 +15,10 @@ import react from '@vitejs/plugin-react';
  *    pre-bundling de Vite evita errores de resolución.
  */
 export default defineConfig({
+  // Rutas relativas ('./') para que la app funcione tanto en localhost como en
+  // la subruta de GitHub Pages (p.ej. usuario.github.io/quita-fondo/) sin
+  // depender del nombre del repositorio.
+  base: './',
   plugins: [react()],
   server: {
     port: 3000,
